@@ -27,8 +27,6 @@ app.post("/form", (req, res) => {
   //fonction mailgun pour la creation et l'envoi d'email
   mailgun.messages().send(data, (error, body) => {
     if (error === undefined) {
-      res.json({ message: "Formulaire bien recçu, mail envoyé" });
-    } else {
       res.json([error, body]);
     }
   });
