@@ -1,30 +1,26 @@
 # Tripadvisor Back end
 
-Basic static clone of the tripadvisor Tokyo page.  
-Purely visual, the only clickable area is the Header button "Contactez-nous" wich opens a contact/mailing modal.
+Express server responding to one unique POST route
+> Gets contact data from front-end and send it to the web admin using mailgun
 
 
 ## Stack
 
-[![EXPRESS JS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](https://expressjs.com/)
- <img alt="NODE JS" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-
-## Features
-
-- test
+![NODE JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![EXPRESS JS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)  
+![AXIOS](https://img.shields.io/badge/AXIOS-671CDE?style=flat)
+![MAILGUN](https://img.shields.io/badge/MAILGUN-F06B66?style=flat) 
 
 
 ---
 
-#### Back-end (Deployed on Heroku)
+#### Démo (Deployed on Netlify)
 
-> repository ➡️ https://github.com/Branda0/tripadvisor-back
+> https://tripadvisor-brandao.netlify.app/  
 
 #### Front-end (Deployed on Heroku)  
 > repository ➡️ https://github.com/Branda0/tripadvisor-front
 
-#### Démo (Deployed on Netlify)
 
-> https://tripadvisor-brandao.netlify.app/  
 
 
